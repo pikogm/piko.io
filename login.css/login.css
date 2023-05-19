@@ -1,0 +1,65 @@
+
+body{
+    background-image: url(../background/register.jpg);
+}
+
+.login{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+   font-size: 25px;
+}
+
+.N1{
+    color: white;
+    font-size: 25px;
+    text-decoration: dashed;
+}
+.N2{
+    color: white;
+    font-size: 25px;
+    text-decoration: dashed;
+}
+.N3{
+    color: white;
+    font-size: 25px;
+    text-decoration: dashed;
+}
+
+body{
+    margin:0;
+    background-color: rgba(0, 0, 0, 0.425);
+ }
+ 
+ nav{
+    width: 100%;
+    height: 80px;
+    background: rgb(63,94,251);
+    background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(101,174,160,1) 31%, rgba(103,137,177,1) 50%, rgba(126,149,126,1) 64%, rgba(186,181,2,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(101,174,160,1) 31%, rgba(103,137,177,1) 50%, rgba(126,149,126,1) 64%, rgba(186,181,2,1) 100%);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(101,174,160,1) 31%, rgba(103,137,177,1) 50%, rgba(126,149,126,1) 64%, rgba(186,181,2,1) 100%);
+ 
+ 
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    box-sizing:border-box;
+ }
+ 
+ .navbar{
+    margin: 0;
+    display: flex;
+    width: fit-content;
+    height: 100%;
+    column-gap: 20px;
+    align-items: center;
+ }
+ 
+ .navbar1{
+    list-style: none;
+ }
+ .navbarlink{
+    text-decoration: dashed;
+  
+    color: rgba(255, 255, 255, 0.452);
+    font-size: 20px;
+ }
